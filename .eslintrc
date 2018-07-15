@@ -2,9 +2,6 @@
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 8,
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    },
     "sourceType": "module"
   },
   "settings": {
@@ -16,7 +13,7 @@
     "browser": true,
     "es6": true,
     "node": true,
-    "mocha": true
+    "jest": true
   },
   "plugins": [
     "import",
@@ -153,7 +150,7 @@
       "error", {
         "allowShortCircuit": false,
         "allowTernary": false,
-        "allowTaggedTemplates": false
+        "allowTaggedTemplates": true
       }
     ],
     "no-unused-labels": "error",
