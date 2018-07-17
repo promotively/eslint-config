@@ -1,10 +1,31 @@
 {
   "name": "@promotively/eslint-config",
+  "author": {
+    "name": "Steven Ewing",
+    "email": "steven.ewing@promotively.com",
+    "url": "http://www.promotively.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/promotively/eslint-config.git"
+  },
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.6.0",
+    "yarn": ">=1.7.0"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
+    "eslint-import-resolver-babel-module": "^5.0.0-beta.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-promise": "^3.8.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-import-resolver-babel-module": "^5.0.0-beta.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-promise": "^3.8.0"
   }
