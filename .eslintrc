@@ -7,6 +7,9 @@
   "settings": {
     "import/resolver": {
       "babel-module": {}
+    },
+    "react": {
+      "version": "16.5.1"
     }
   },
   "env": {
@@ -378,7 +381,7 @@
     ],
     "max-lines": [
       "error", {
-        "max": 300,
+        "max": 500,
         "skipBlankLines": true,
         "skipComments": true
       }
@@ -390,7 +393,7 @@
     ],
     "max-params": [
       "error", {
-        "max": 5
+        "max": 10
       }
     ],
     "max-statements": "off",
