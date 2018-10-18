@@ -672,7 +672,7 @@
     "import/no-nodejs-modules": "off",
     "import/first": "error",
     "import/no-duplicates": "error",
-    "import/no-namespace": "error",
+    "import/no-namespace": "off",
     "import/extensions": "off",
     "import/order": "off",
     "import/newline-after-import": [
