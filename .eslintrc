@@ -683,7 +683,7 @@
     "import/prefer-default-export": "error",
     "import/max-dependencies": [
       "error", {
-        "max": 20
+        "max": 30
       }
     ],
     "import/no-unassigned-import": "off",
