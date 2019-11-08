@@ -245,12 +245,7 @@
     "no-restricted-modules": "off",
     "no-sync": "off",
     "array-bracket-newline": "off",
-    "array-bracket-spacing": [
-      "error",
-      "always", {
-        "objectsInArrays": false
-      }
-    ],
+    "array-bracket-spacing": "off",
     "array-element-newline": "off",
     "block-spacing": [
       "error",
@@ -314,30 +309,7 @@
       }
     ],
     "id-match": "off",
-    "indent": [
-      "error",
-      2, {
-        "SwitchCase": 1,
-        "VariableDeclarator": 1,
-        "outerIIFEBody": 1,
-        "MemberExpression": 1,
-        "FunctionDeclaration": {
-          "parameters": 1,
-          "body": 1
-        },
-        "FunctionExpression": {
-          "parameters": 1,
-          "body": 1
-        },
-        "CallExpression": {
-          "arguments": 1
-        },
-        "ArrayExpression": 1,
-        "ObjectExpression": 1,
-        "ImportDeclaration": 1,
-        "flatTernaryExpressions": false
-      }
-    ],
+    "indent": "off",
     "jsx-quotes": [
       "error",
       "prefer-single"
@@ -375,8 +347,8 @@
     ],
     "max-len": [
       "error", {
-        "code": 250,
-        "tabWidth": 4
+        "code": 120,
+        "tabWidth": 2
       }
     ],
     "max-lines": [
@@ -419,7 +391,7 @@
     "no-continue": "error",
     "no-inline-comments": "off",
     "no-lonely-if": "error",
-    "no-mixed-operators": "error",
+    "no-mixed-operators": "off",
     "no-mixed-spaces-and-tabs": "error",
     "no-multiple-empty-lines": [
       "error", {
@@ -479,10 +451,7 @@
       "error",
       "always"
     ],
-    "operator-linebreak": [
-      "error",
-      "none"
-    ],
+    "operator-linebreak": "off",
     "padded-blocks": [
       "error", {
         "classes": "always"
@@ -558,15 +527,12 @@
       "error",
       "never"
     ],
-    "wrap-regex": "error",
+    "wrap-regex": "off",
     "arrow-body-style": [
       "error",
       "as-needed"
     ],
-    "arrow-parens": [
-      "error",
-      "always"
-    ],
+    "arrow-parens": "off",
     "arrow-spacing": [
       "error", {
         "before": true,
@@ -617,7 +583,7 @@
     ],
     "prefer-numeric-literals": "error",
     "prefer-rest-params": "error",
-    "prefer-spread": "error",
+    "prefer-spread": "off",
     "prefer-template": "error",
     "require-yield": "error",
     "rest-spread-spacing": [
