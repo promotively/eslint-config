@@ -18,7 +18,7 @@
     "node": true,
     "jest": true
   },
-  "plugins": ["import", "promise"],
+  "plugins": ["prettier", "import", "promise"],
   "rules": {
     "for-direction": "error",
     "getter-return": "error",
@@ -501,14 +501,7 @@
     "prefer-template": "error",
     "require-yield": "error",
     "rest-spread-spacing": ["error", "never"],
-    "sort-imports": [
-      "error",
-      {
-        "ignoreCase": true,
-        "ignoreMemberSort": true,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
-      }
-    ],
+    "sort-imports": "off",
     "symbol-description": "error",
     "template-curly-spacing": ["error", "never"],
     "yield-star-spacing": [
@@ -546,13 +539,8 @@
     "import/no-duplicates": "error",
     "import/no-namespace": "off",
     "import/extensions": "off",
-    "import/order": "off",
-    "import/newline-after-import": [
-      "error",
-      {
-        "count": 1
-      }
-    ],
+    "import/order": "error",
+    "import/newline-after-import": "off",
     "import/prefer-default-export": "error",
     "import/max-dependencies": [
       "error",
@@ -571,6 +559,7 @@
     "promise/no-nesting": "error",
     "promise/no-promise-in-callback": "error",
     "promise/no-callback-in-promise": "error",
-    "promise/avoid-new": "off"
+    "promise/avoid-new": "off",
+    "prettier/prettier": "error"
   }
 }
