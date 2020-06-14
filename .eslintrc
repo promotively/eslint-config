@@ -541,7 +541,8 @@
     "import/extensions": "off",
     "import/order": "error",
     "import/newline-after-import": "off",
-    "import/prefer-default-export": "error",
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "error",
     "import/max-dependencies": [
       "error",
       {
